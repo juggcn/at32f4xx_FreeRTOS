@@ -1,14 +1,17 @@
 /**
   ******************************************************************************
-  * File   : GPIO/LED_Toggle/main.c
-  * Version: V1.2.8
-  * Date   : 2020-11-27
+  * File   :
+  * Version: 
+  * Date   :
   * Brief  : Main program body
   ******************************************************************************
   */
 
 #include <stdio.h>
 #include "at32f4xx.h"
+
+#include "sys.h"
+
 /*
 *********************************************************************************************************
 *                                                main()
@@ -22,13 +25,22 @@
 *********************************************************************************************************
 */
 
-uint32_t ulCnt = 0;
-int main(void)
-{
+uint32_t ulTick = 0;
 
+void vTskInit(void *argument)
+{
   while (1)
   {
-    ulCnt++;
+    ulTick++;
+    vDelayMS(1000);
   }
-  return (0u);
+}
+
+int main(void)
+{
+  xTaskCreate(vTskInit, NULL, 256, NULL, 15, NULL);
+  vTaskStartScheduler();
+  while (1)
+  {
+  }
 }
