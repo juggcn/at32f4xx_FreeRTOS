@@ -6,7 +6,7 @@ ARM Macro Assembler    Page 1
 
     1 00000000         ;*******************************************************
                        *******************
-    2 00000000         ;* File   : startup_at32f415cct7.s
+    2 00000000         ;* File   : startup_at32f415cbt7.s
     3 00000000         ;* Version: V1.2.8
     4 00000000         ;* Date   : 2020-11-27
     5 00000000         ;* Brief  : at32f4xx startup file for keil
@@ -510,12 +510,12 @@ ARM Macro Assembler    Page 8
               00000000 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4 --apcs=interw
-ork --depend=.\objects\startup_at32f415cct7.d -o.\objects\startup_at32f415cct7.
-o -I.\RTE\_at32f415cct7 -IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\A
+ork --depend=.\objects\startup_at32f415cbt7.d -o.\objects\startup_at32f415cbt7.
+o -I.\RTE\_at32f415cbt7 -IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\A
 T32F4xx_DFP\1.3.5\Device\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__
 MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 530" --predefine="AT32F415
-CCT7 SETA 1" --predefine="_RTE_ SETA 1" --list=.\listings\startup_at32f415cct7.
-lst ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk\startup_at32f415cct7
+CBT7 SETA 1" --predefine="_RTE_ SETA 1" --list=.\listings\startup_at32f415cbt7.
+lst ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk\startup_at32f415cbt7
 .s
 
 
@@ -528,7 +528,7 @@ STACK 00000000
 Symbol: STACK
    Definitions
       At line 17 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
    Uses
       None
 Comment: STACK unused
@@ -537,7 +537,7 @@ Stack_Mem 00000000
 Symbol: Stack_Mem
    Definitions
       At line 18 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
    Uses
       None
 Comment: Stack_Mem unused
@@ -546,12 +546,12 @@ __initial_sp 00000400
 Symbol: __initial_sp
    Definitions
       At line 19 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
    Uses
       At line 42 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 321 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 3 symbols
 
@@ -565,7 +565,7 @@ HEAP 00000000
 Symbol: HEAP
    Definitions
       At line 27 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
    Uses
       None
 Comment: HEAP unused
@@ -574,7 +574,7 @@ Heap_Mem 00000000
 Symbol: Heap_Mem
    Definitions
       At line 29 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
    Uses
       None
 Comment: Heap_Mem unused
@@ -583,20 +583,20 @@ __heap_base 00000000
 Symbol: __heap_base
    Definitions
       At line 28 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
    Uses
       At line 322 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 Comment: __heap_base used once
 __heap_limit 00000200
 
 Symbol: __heap_limit
    Definitions
       At line 30 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
    Uses
       At line 323 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 Comment: __heap_limit used once
 4 symbols
 
@@ -610,7 +610,7 @@ RESET 00000000
 Symbol: RESET
    Definitions
       At line 37 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
    Uses
       None
 Comment: RESET unused
@@ -619,24 +619,24 @@ __Vectors 00000000
 Symbol: __Vectors
    Definitions
       At line 42 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
    Uses
       At line 38 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 138 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 __Vectors_End 00000170
 
 Symbol: __Vectors_End
    Definitions
       At line 136 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 39 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 138 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 3 symbols
 
@@ -650,7 +650,7 @@ Relocatable symbols
 Symbol: .text
    Definitions
       At line 140 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       None
 Comment: .text unused
@@ -659,48 +659,48 @@ ACC_IRQHandler 0000001A
 Symbol: ACC_IRQHandler
    Definitions
       At line 308 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 132 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 251 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 ADC1_2_IRQHandler 0000001A
 
 Symbol: ADC1_2_IRQHandler
    Definitions
       At line 274 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 78 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 217 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 BusFault_Handler 0000000E
 
 Symbol: BusFault_Handler
    Definitions
       At line 170 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 47 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 171 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 CAN1_RX0_IRQHandler 0000001A
 
 Symbol: CAN1_RX0_IRQHandler
    Definitions
       At line 276 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 80 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 219 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 CAN1_RX1_IRQHandler 0000001A
 
@@ -713,60 +713,60 @@ Relocatable symbols
 Symbol: CAN1_RX1_IRQHandler
    Definitions
       At line 277 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 81 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 220 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 CAN1_SCE_IRQHandler 0000001A
 
 Symbol: CAN1_SCE_IRQHandler
    Definitions
       At line 278 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 82 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 221 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 CAN1_TX_IRQHandler 0000001A
 
 Symbol: CAN1_TX_IRQHandler
    Definitions
       At line 275 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 79 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 218 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 COMP1_IRQHandler 0000001A
 
 Symbol: COMP1_IRQHandler
    Definitions
       At line 306 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 130 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 249 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 COMP2_IRQHandler 0000001A
 
 Symbol: COMP2_IRQHandler
    Definitions
       At line 307 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 131 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 250 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 DMA1_Channel1_IRQHandler 0000001A
 
@@ -779,60 +779,60 @@ Relocatable symbols
 Symbol: DMA1_Channel1_IRQHandler
    Definitions
       At line 267 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 71 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 210 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 DMA1_Channel2_IRQHandler 0000001A
 
 Symbol: DMA1_Channel2_IRQHandler
    Definitions
       At line 268 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 72 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 211 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 DMA1_Channel3_IRQHandler 0000001A
 
 Symbol: DMA1_Channel3_IRQHandler
    Definitions
       At line 269 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 73 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 212 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 DMA1_Channel4_IRQHandler 0000001A
 
 Symbol: DMA1_Channel4_IRQHandler
    Definitions
       At line 270 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 74 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 213 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 DMA1_Channel5_IRQHandler 0000001A
 
 Symbol: DMA1_Channel5_IRQHandler
    Definitions
       At line 271 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 75 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 214 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 
 
@@ -845,60 +845,60 @@ DMA1_Channel6_IRQHandler 0000001A
 Symbol: DMA1_Channel6_IRQHandler
    Definitions
       At line 272 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 76 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 215 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 DMA1_Channel7_IRQHandler 0000001A
 
 Symbol: DMA1_Channel7_IRQHandler
    Definitions
       At line 273 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 77 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 216 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 DMA2_Channel1_IRQHandler 0000001A
 
 Symbol: DMA2_Channel1_IRQHandler
    Definitions
       At line 301 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 116 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 244 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 DMA2_Channel2_IRQHandler 0000001A
 
 Symbol: DMA2_Channel2_IRQHandler
    Definitions
       At line 302 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 117 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 245 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 DMA2_Channel3_IRQHandler 0000001A
 
 Symbol: DMA2_Channel3_IRQHandler
    Definitions
       At line 303 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 118 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 246 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 
 
@@ -911,43 +911,43 @@ DMA2_Channel4_5_IRQHandler 0000001A
 Symbol: DMA2_Channel4_5_IRQHandler
    Definitions
       At line 304 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 119 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 247 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 DMA2_Channel6_7_IRQHandler 0000001A
 
 Symbol: DMA2_Channel6_7_IRQHandler
    Definitions
       At line 309 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 135 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 252 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 DebugMon_Handler 00000014
 
 Symbol: DebugMon_Handler
    Definitions
       At line 184 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 54 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 185 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 Default_Handler 0000001A
 
 Symbol: Default_Handler
    Definitions
       At line 197 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       None
 Comment: Default_Handler unused
@@ -956,12 +956,12 @@ ERTCAlarm_IRQHandler 0000001A
 Symbol: ERTCAlarm_IRQHandler
    Definitions
       At line 297 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 101 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 240 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 ERTC_WKUP_IRQHandler 0000001A
 
@@ -974,60 +974,60 @@ Relocatable symbols
 Symbol: ERTC_WKUP_IRQHandler
    Definitions
       At line 259 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 63 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 202 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 EXTI0_IRQHandler 0000001A
 
 Symbol: EXTI0_IRQHandler
    Definitions
       At line 262 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 66 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 205 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 EXTI15_10_IRQHandler 0000001A
 
 Symbol: EXTI15_10_IRQHandler
    Definitions
       At line 296 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 100 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 239 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 EXTI1_IRQHandler 0000001A
 
 Symbol: EXTI1_IRQHandler
    Definitions
       At line 263 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 67 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 206 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 EXTI2_IRQHandler 0000001A
 
 Symbol: EXTI2_IRQHandler
    Definitions
       At line 264 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 68 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 207 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 
 
@@ -1040,60 +1040,60 @@ EXTI3_IRQHandler 0000001A
 Symbol: EXTI3_IRQHandler
    Definitions
       At line 265 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 69 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 208 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 EXTI4_IRQHandler 0000001A
 
 Symbol: EXTI4_IRQHandler
    Definitions
       At line 266 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 70 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 209 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 EXTI9_5_IRQHandler 0000001A
 
 Symbol: EXTI9_5_IRQHandler
    Definitions
       At line 279 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 83 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 222 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 FLASH_IRQHandler 0000001A
 
 Symbol: FLASH_IRQHandler
    Definitions
       At line 260 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 64 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 203 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 HardFault_Handler 0000000A
 
 Symbol: HardFault_Handler
    Definitions
       At line 160 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 45 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 161 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 
 
@@ -1106,58 +1106,58 @@ I2C1_ER_IRQHandler 0000001A
 Symbol: I2C1_ER_IRQHandler
    Definitions
       At line 288 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 92 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 231 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 I2C1_EV_IRQHandler 0000001A
 
 Symbol: I2C1_EV_IRQHandler
    Definitions
       At line 287 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 91 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 230 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 I2C2_ER_IRQHandler 0000001A
 
 Symbol: I2C2_ER_IRQHandler
    Definitions
       At line 290 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 94 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 233 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 I2C2_EV_IRQHandler 0000001A
 
 Symbol: I2C2_EV_IRQHandler
    Definitions
       At line 289 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 93 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 232 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 MemManage_Handler 0000000C
 
 Symbol: MemManage_Handler
    Definitions
       At line 165 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 46 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 166 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
 
 
@@ -1165,65 +1165,65 @@ k\startup_at32f415cct7.s
 ARM Macro Assembler    Page 9 Alphabetic symbol ordering
 Relocatable symbols
 
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 NMI_Handler 00000008
 
 Symbol: NMI_Handler
    Definitions
       At line 155 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 44 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 156 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 PVD_IRQHandler 0000001A
 
 Symbol: PVD_IRQHandler
    Definitions
       At line 257 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 61 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 200 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 PendSV_Handler 00000016
 
 Symbol: PendSV_Handler
    Definitions
       At line 188 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 56 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 189 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 RCC_IRQHandler 0000001A
 
 Symbol: RCC_IRQHandler
    Definitions
       At line 261 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 65 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 204 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 Reset_Handler 00000000
 
 Symbol: Reset_Handler
    Definitions
       At line 143 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 43 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
 
 
 
@@ -1231,62 +1231,62 @@ ARM Macro Assembler    Page 10 Alphabetic symbol ordering
 Relocatable symbols
 
       At line 144 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 SDIO_IRQHandler 0000001A
 
 Symbol: SDIO_IRQHandler
    Definitions
       At line 299 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 109 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 242 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 SPI1_IRQHandler 0000001A
 
 Symbol: SPI1_IRQHandler
    Definitions
       At line 291 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 95 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 234 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 SPI2_IRQHandler 0000001A
 
 Symbol: SPI2_IRQHandler
    Definitions
       At line 292 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 96 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 235 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 SVC_Handler 00000012
 
 Symbol: SVC_Handler
    Definitions
       At line 179 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 53 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 180 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 SysTick_Handler 00000018
 
 Symbol: SysTick_Handler
    Definitions
       At line 192 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 57 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
 
@@ -1295,64 +1295,64 @@ k\startup_at32f415cct7.s
 ARM Macro Assembler    Page 11 Alphabetic symbol ordering
 Relocatable symbols
 
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 193 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 TAMP_STAMP_IRQHandler 0000001A
 
 Symbol: TAMP_STAMP_IRQHandler
    Definitions
       At line 258 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 62 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 201 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 TMR1_BRK_TMR9_IRQHandler 0000001A
 
 Symbol: TMR1_BRK_TMR9_IRQHandler
    Definitions
       At line 280 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 84 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 223 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 TMR1_CC_IRQHandler 0000001A
 
 Symbol: TMR1_CC_IRQHandler
    Definitions
       At line 283 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 87 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 226 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 TMR1_OV_TMR10_IRQHandler 0000001A
 
 Symbol: TMR1_OV_TMR10_IRQHandler
    Definitions
       At line 281 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 85 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 224 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 TMR1_TRG_COM_TMR11_IRQHandler 0000001A
 
 Symbol: TMR1_TRG_COM_TMR11_IRQHandler
    Definitions
       At line 282 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
 
 
@@ -1361,64 +1361,64 @@ ARM Macro Assembler    Page 12 Alphabetic symbol ordering
 Relocatable symbols
 
       At line 86 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 225 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 TMR2_GLOBAL_IRQHandler 0000001A
 
 Symbol: TMR2_GLOBAL_IRQHandler
    Definitions
       At line 284 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 88 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 227 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 TMR3_GLOBAL_IRQHandler 0000001A
 
 Symbol: TMR3_GLOBAL_IRQHandler
    Definitions
       At line 285 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 89 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 228 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 TMR4_GLOBAL_IRQHandler 0000001A
 
 Symbol: TMR4_GLOBAL_IRQHandler
    Definitions
       At line 286 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 90 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 229 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 TMR5_GLOBAL_IRQHandler 0000001A
 
 Symbol: TMR5_GLOBAL_IRQHandler
    Definitions
       At line 300 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 110 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 243 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 USART1_IRQHandler 0000001A
 
 Symbol: USART1_IRQHandler
    Definitions
       At line 293 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 
 
@@ -1427,57 +1427,57 @@ Relocatable symbols
 
    Uses
       At line 97 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 236 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 USART2_IRQHandler 0000001A
 
 Symbol: USART2_IRQHandler
    Definitions
       At line 294 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 98 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 237 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 USART3_IRQHandler 0000001A
 
 Symbol: USART3_IRQHandler
    Definitions
       At line 295 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 99 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 238 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 USBOTG_IRQHandler 0000001A
 
 Symbol: USBOTG_IRQHandler
    Definitions
       At line 305 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 127 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 248 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 USBWakeUp_IRQHandler 0000001A
 
 Symbol: USBWakeUp_IRQHandler
    Definitions
       At line 298 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 102 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
       At line 241 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 UsageFault_Handler 00000010
 
@@ -1490,24 +1490,24 @@ Symbol: UsageFault_Handler
 ARM Macro Assembler    Page 14 Alphabetic symbol ordering
 Relocatable symbols
 
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 48 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 176 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 WWDG_IRQHandler 0000001A
 
 Symbol: WWDG_IRQHandler
    Definitions
       At line 256 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 60 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
       At line 199 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 
 66 symbols
 
@@ -1521,30 +1521,30 @@ Heap_Size 00000200
 Symbol: Heap_Size
    Definitions
       At line 25 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
    Uses
       At line 29 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
 Comment: Heap_Size used once
 Stack_Size 00000400
 
 Symbol: Stack_Size
    Definitions
       At line 15 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
    Uses
       At line 18 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
 Comment: Stack_Size used once
 __Vectors_Size 00000170
 
 Symbol: __Vectors_Size
    Definitions
       At line 138 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 40 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\mdk
-\startup_at32f415cct7.s
+\startup_at32f415cbt7.s
 Comment: __Vectors_Size used once
 3 symbols
 
@@ -1558,20 +1558,20 @@ SystemInit 00000000
 Symbol: SystemInit
    Definitions
       At line 146 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 147 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 Comment: SystemInit used once
 __main 00000000
 
 Symbol: __main
    Definitions
       At line 145 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
    Uses
       At line 149 in file ..\..\..\Libraries\CMSIS\CM4\DeviceSupport\startup\md
-k\startup_at32f415cct7.s
+k\startup_at32f415cbt7.s
 Comment: __main used once
 2 symbols
 417 symbols in table
